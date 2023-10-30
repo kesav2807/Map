@@ -1,34 +1,17 @@
-# Map 
+# MAP &
 
-Map Animation
-This project is a simple web application that utilizes Mapbox GL JS to display a map and provides an animation to show stops between Coimbatore and RVS College.
+## Description:
 
-Usage
-Open the HTML file (index.html) in a web browser.
+This HTML document displays a map using Mapbox and a button to animate a marker's movement along predefined bus stops between Gandhipuram and Sulur.
 
-The map is displayed using Mapbox GL JS.
+## How to run the code:
 
-Click the "Show stops between Coimbatore to RVS college" button to initiate the animation.
+step1:Save the HTML file with html extension.
 
-Files
-index.html: Contains the HTML structure for the web application, including Mapbox GL JS script and links to styles and JavaScript files.
+step2:Click the "Go Live" button.A new browser window will open, displaying map moving from one place to another place.
 
-styles.css: Contains styles for the web application. You can customize this file to change the appearance of the map or other elements.
+##Future Enhancement:
 
-mapanimation.js: Contains JavaScript code for map animation. The move() function is called when the button is clicked, triggering the animation.
+1)Display real-time bus location data on the map for a more practical application,
 
-Dependencies
-Mapbox GL JS: The project uses Mapbox GL JS to render the map. It includes a script and stylesheet link to version 1.11.0.
-Notes
-Make sure you have an internet connection to load the Mapbox GL JS library.
-
-Customize the Mapbox styles, add markers, or modify the animation logic in the mapanimation.js file to suit your needs.
-
-You can replace the placeholder text and button styles in the HTML file as necessary.
-
-Feel free to enhance and modify this project for your specific use case or integrate additional features.
-
-
-
-
-
+2)Add interactive features like bus stop information on click or route selection options.
